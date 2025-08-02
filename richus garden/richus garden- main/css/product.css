@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;400;500;600;700;800;900&family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+
+:root {
+  --color-primary: #c1dcdc;
+  --color-dark-1: #1e1e1e;
+  --color-dark-2: #6d6d6d;
+  ---font-primary: "Poppins", sans-serif;
+  --font-logo: "Kanit", sans-serif;
+}
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-size: 16px;
+  font-family: var(---font-primary);
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0px 15px;
+}
+.section {
+  padding-top: 100px;
+}
+
+
+.nav {
+  width: 100%;
+  height: 100px;
+}
+.nav_container {
+  
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav_left {
+  display: flex;
+  align-items: center;
+}
+.nav_logo {
+  font-size: 24px;
+  font-family: var(--font-logo);
+  color: var(--color-dark-1);
+  font-weight: 700;
+}
+.nav_list {
+  display: flex;
+  margin-left: 30px;
+}
+.nav_items {
+  margin: 0px 6px;
+}
+.nav_link {
+  padding: 7px 10px;
+  color: var(--color-dark-2);
+  font-weight: 500;
+}
+.active {
+  color: var(--color-dark-1);
+}
+.nav_icon {
+  margin: 0px 0px 0px 25px;
+
+}
+body{
+  font-family: 'poppins',sans-serif;
+  margin: 0;
+}
+#box{
+  width: 900px;
+  max-width: 90vw;
+  margin: auto;
+  text-align: center;
+  padding-top: 10px;
+
+}
+svg{
+  width: 30px;
+
+}
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+
+}
+header .icon-cart span{ 
+  display: inline;
+  width: 30px;
+  height: 30px;
+  background-color: red;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  border-radius: 50%;
+  position: absolute;
+
+}
+.listProduct .item img{
+  width: 90%;
+  filter: drop-shadow(0 50px 20px #0009);
+
+}
+.listProduct{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 20px;
+  
+}
+.listProduct .item{
+  background-color: #eeeee6;
+  padding: 20px;
+  border-radius: 20px;
+}
+.listProduct .item h2{
+  font-weight: 500;
+  font-size: large;
+
+}
+.listProduct .item .price{
+  letter-spacing: 7px;
+  font-size: small;
+
+
+}
+.listProduct .item button{
+  background-color: #353432;
+  color: #eee;
+  padding: 5px 10px;
+  border-radius: 20px;margin-top: 10px;
+  margin-top: 10px;
+  border: none;
+  cursor: pointer;
+
+
+}
+cartTab{
+  width: 400px;
+  background-color: #353432;
+  color: #eee;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  inset: 0 0 0 auto;
+  display: grid;
+  grid-template-rows: 70px 1fr 70px;
+  
+}
